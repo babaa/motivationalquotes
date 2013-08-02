@@ -1,4 +1,4 @@
-motivationalquotes
+Motivational Quotes
 ==================
 
-Motivational quotes app for Android
+Simple and stylish motivational quotes app for Android.
