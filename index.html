@@ -2,11 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Demo</title>
+  <title>Motivational Quotes</title>
   <link rel="stylesheet" href="css/idangerous.swiper.css">
  <style>
-/* Demo Styles */
-
 html {
   height: 100%;
 }
@@ -21,15 +19,15 @@ body {
 }
 .swiper-container {
   width: 100%;
-  height: 90%;
+  height: 100%;
   color: #000;
   text-align: center;
 }
 
 .swiper-slide {
   margin-top: 80px;
-
 }
+
 .swiper-slide .title {
   font-style: italic;
   font-size: 42px;
@@ -59,23 +57,29 @@ body {
 .swiper-active-switch {
   background: #fff;
 }
+
+img {
+  max-width: 100%;
+  height: 100%;
+  width: auto; 
+}
+
   </style>
 </head>
 <body>
   <div class="swiper-container">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <img src="http://i.imgur.com/mqqsC9p.jpg" alt="let it go">
-      </div>
-      <div class="swiper-slide">
         <img src="http://i.imgur.com/MpCzc.jpg" alt="do more of what makes you happy">
       </div>
       <div class="swiper-slide">
-        <div class="title">Slide 4</div>
+        <img src="http://i.imgur.com/mqqsC9p.jpg" alt="let it go">
+      </div>
+      <div class="swiper-slide">
         <img src="http://i.imgur.com/y37o4.jpg" alt="good things will come my way">
       </div>
       <div class="swiper-slide">
-        <div class="title">Slide 5</div>
+        <img src="http://i.imgur.com/L90qkcS.png" alt="always do what you like, never settle">
       </div>
       <div class="swiper-slide">
         <div class="title">Slide 6</div>
@@ -94,7 +98,7 @@ body {
   <script>
   var mySwiper = new Swiper('.swiper-container',{
     slidesPerView: 1,
-    loop: true
+    loop: true,
   })
   </script>
 </body>
