@@ -3,61 +3,64 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1">
-	<title>Simple Swiper App</title>
+	<title>Motivational Quotes</title>
 
 	<link rel="stylesheet" href="css/idangerous.swiper.css">
 	<link rel="stylesheet" href="css/idangerous.swiper.scrollbar.css">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/simple-app.css">
+	<link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-	<div class="swiper-pages swiper-container">
-		<div class="swiper-wrapper">
+	<div class="swiper-pages swiper-container ">
+		<div class="swiper-wrapper vertical-container">
+
+			<!-- begin slide -->
 			<div class="swiper-slide">
-				<div class="swiper-container scroll-container">
-					<div class="swiper-scrollbar"></div>
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<div class="page-inner">
-								<h1>PIC 1 </h1>
-							</div>
+				<div class="swiper-container swiper-gallery">
+					<div class="swiper-wrapper vertical-helper">
+						<div class="swiper-slide page-inner">
+							<img src="http://i.imgur.com/mqqsC9p.jpg" alt="let it go">
 						</div>
 					</div>
 				</div>
 			</div>
+			<!-- end slide -->
+
 			<div class="swiper-slide">
-				<div class="swiper-container scroll-container">
-					<div class="swiper-scrollbar"></div>
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<div class="page-inner">
-								<h1>About Us</h1>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, aliquid dolor quidem harum hic dolore et temporibus quisquam alias ratione nisi ex laboriosam esse nesciunt neque sed quis deleniti maxime.</p>
-								<p>Omnis explicabo dicta cupiditate sed minus ipsa laborum aliquid nisi. Ad, consectetur, maiores, culpa quos aliquid atque saepe libero laborum facilis dignissimos consequuntur repellendus inventore totam alias fuga explicabo repudiandae.</p>
-								<p>Voluptatibus, est, dignissimos, blanditiis perspiciatis expedita totam reprehenderit voluptates quod impedit autem quam repudiandae iusto libero officia quo ad ullam voluptatum distinctio aperiam nulla dolorem! Cupiditate soluta aut aliquid ipsum!</p>
-								<p>Harum, facere, quisquam dignissimos dolorem a ex velit amet ad architecto quos adipisci labore sint nulla. Cum, veniam, molestias, excepturi amet consequuntur vel nobis sed minima officia architecto in vitae.</p>
-								<p>Iure, perferendis, porro error sint nisi quo libero laudantium repudiandae architecto sunt itaque accusamus ipsum quas voluptatum iusto modi facere culpa. Culpa, eaque nisi praesentium aspernatur natus distinctio ad nostrum.</p>
-								<p>Unde, tenetur porro atque eaque quae repellendus dignissimos doloremque neque quia nulla fugiat quis adipisci rem recusandae eos voluptatem sunt velit natus. Ipsam, facilis molestias animi laboriosam fuga repellat iste.</p>
-								<p>Consequuntur, cupiditate, fugiat similique repellat voluptates possimus saepe dolorum rem blanditiis illum! Ducimus, pariatur consequatur nobis neque deleniti quaerat omnis! Quaerat, inventore alias veniam vero repudiandae praesentium necessitatibus reprehenderit sit!</p>
-								<p>Illo, nam qui ipsum aperiam possimus similique eaque officia error consectetur omnis nostrum consequuntur dicta libero aspernatur repudiandae. Quos, odit nemo atque et id error excepturi inventore eum. Quia, sequi?</p>
-								<p>Nemo, doloribus, consectetur enim sunt cumque quia tenetur fugiat atque repellendus perferendis suscipit quasi ratione repellat deserunt in fuga iste. Et, nobis corporis nemo quo atque at neque consequatur tenetur?</p>
-								<p>Nisi, odit, quisquam recusandae aspernatur officia facilis saepe repellendus iusto minima maiores ratione sint nihil esse. Consequatur, alias, labore nam voluptate sequi doloremque nobis quisquam earum eligendi impedit eveniet dolore.</p>
-							</div>
+				<div class="swiper-container swiper-gallery">
+					<div class="swiper-wrapper vertical-helper">
+						<div class="swiper-slide page-inner visible">
+							<img src="http://i.imgur.com/MpCzc.jpg" alt="do more of what makes you happy">
 						</div>
 					</div>
 				</div>
 			</div>
+
+
 			<div class="swiper-slide">
 				<div class="swiper-container swiper-gallery">
 					<div class="swiper-scrollbar"></div>
 					<div class="swiper-wrapper">
-						<div class="swiper-slide"><img src="img/gallery-2.jpg" height="684" width="1024" alt=""></div>
-						<div class="swiper-slide"><img src="img/gallery-3.jpg" height="800" width="532" alt=""></div>
-						<div class="swiper-slide"><img src="img/gallery-4.jpg" height="800" width="532" alt=""></div>
-						<div class="swiper-slide"><img src="img/gallery-5.jpg" height="684" width="1024" alt=""></div>
+						<div class="swiper-slide-visible page-inner">
+								<h1>About Us</h1>
+								<img src="http://i.imgur.com/MpCzc.jpg" class="">
+						</div>
 					</div>
 				</div>
 			</div>
+
+			<div class="swiper-slide">
+				<div class="swiper-container swiper-gallery">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide-visible page-inner ">
+							<img src="http://i.imgur.com/mqqsC9p.jpg" alt="let it go">
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<div class="swiper-slide">
 				<div class="swiper-container scroll-container">
 					<div class="swiper-scrollbar"></div>
@@ -65,6 +68,7 @@
 						<div class="swiper-slide">
 							<div class="page-inner">
 								<h1>PIC 3</h1>
+								<img src="img/gallery-6.jpg">
 							</div>
 						</div>
 					</div>
@@ -92,4 +96,5 @@
 	<script src="js/app.js"></script>
 
 </body>
+
 </html>
