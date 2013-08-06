@@ -1,13 +1,9 @@
 window.onload = function() {
   var mySwiper = new Swiper('.swiper-container',{
-    //Your options here:
     mode:'horizontal',
     loop: true,
     updateOnImagesReady: true,
     centeredSlides: true,
-    keyboardControl: true,
-    mousewheelControl: true,
-    //etc..
   });
 
 var gallery = {
@@ -18,10 +14,13 @@ var gallery = {
 'http://i.imgur.com/y37o4.jpg' : 'good things will come my way',
 'http://i.imgur.com/SnoVEHd.jpg' : 'being happy is productive',
 'http://i.imgur.com/M8tLJT5.jpg' : 'just start',
+'http://i.imgur.com/r2kb023.jpg' : 'nothing is impossible for you, my dear',
+'http://i.imgur.com/Cu4BqeL.jpg' : 'make today ridiculously amazing'
 };
 
+var shuffled_gallery = shuffleProperties(gallery);
 
-$.each(gallery,function(key, value){
+$.each(shuffled_gallery,function(key, value){
 
   var newSlide = mySwiper.createSlide('<img src="' + key + '" alt="' + value + '">');
   newSlide.prepend()
