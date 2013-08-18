@@ -38,16 +38,10 @@ body {
   border: 1px solid #fff;
   cursor: pointer;
 }
-.swiper-visible-switch {
-  background: #aaa;
-}
-.swiper-active-switch {
-  background: #fff;
-}
 
 img {
   position: relative;
-  width: 100%;
+  max-width: 100%;
 }
 
 
