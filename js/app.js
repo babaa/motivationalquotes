@@ -22,7 +22,7 @@ var shuffled_gallery = shuffleProperties(gallery);
 
 $.each(shuffled_gallery,function(key, value){
 
-  var newSlide = mySwiper.createSlide('<img src="' + key + '" alt="' + value + '">');
+  var newSlide = mySwiper.createSlide('<div class="verticalhack"><img src="' + key + '" alt="' + value + '"></div>');
   newSlide.prepend()
 
 });
