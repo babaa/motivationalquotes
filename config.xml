@@ -38,7 +38,7 @@
     -->
 
     <!-- Define app icon for each platform. -->
-    <icon src="logo.png" />
+    <icon src="img/logo.png" />
 
     <!-- Define app splash screen for each platform. -->
 
