@@ -26,7 +26,8 @@ var gallery = {
 'tumblr_mmndvoL7s31qz4d4bo1_500.jpg' : 'it is time to believe in myself',
 'don27tletthe0abehavior0aofothers0adestroyyour0ainnerpeace-default.png' : "don't let the behavior of others destroy your inner peace",
 'Like-a-river-flows-so-surelyw.png' : 'like a river flows so surely to the sea darling so it goes some things are meant to be',
-'always_do_what_you_love.png' : 'always do what you love, never settle'
+'always_do_what_you_love.png' : 'always do what you love, never settle',
+'tumblr_mf1hl0wKi71r0ntnuo1_1280.jpg' : 'what you do every day matters more than what you do every once in a while'
 };
 
 var shuffled_gallery = shuffleProperties(gallery);
