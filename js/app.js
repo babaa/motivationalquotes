@@ -27,7 +27,8 @@ var gallery = {
 'don27tletthe0abehavior0aofothers0adestroyyour0ainnerpeace-default.png' : "don't let the behavior of others destroy your inner peace",
 'Like-a-river-flows-so-surelyw.png' : 'like a river flows so surely to the sea darling so it goes some things are meant to be',
 'always_do_what_you_love.png' : 'always do what you love, never settle',
-'tumblr_mf1hl0wKi71r0ntnuo1_1280.jpg' : 'what you do every day matters more than what you do every once in a while'
+'tumblr_mf1hl0wKi71r0ntnuo1_1280.jpg' : 'what you do every day matters more than what you do every once in a while',
+'Timeline_Cover_doNotRename16.png' : "what sets you apart can feel like a burden. and it's not. a lot of the time it's what makes you great",
 };
 
 var shuffled_gallery = shuffleProperties(gallery);
